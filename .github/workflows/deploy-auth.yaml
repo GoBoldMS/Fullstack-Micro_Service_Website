@@ -1,6 +1,7 @@
 name: deploy-auth
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -18,4 +19,3 @@ jobs:
           DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
       - run: cd auth && docker build -t yonatanlevin/ticketing-auth .
       - run: docker push cygnetops/auth
-
