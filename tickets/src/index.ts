@@ -5,6 +5,8 @@ import { OrderCreatedListener } from './events/listeners/order-created-listener'
 import { natsWarpper } from './nats-warpper';
 
 const start = async () => {
+    
+    console.log("stating.....")
 
     if (!process.env.JWT_KEY) {
         throw new Error('JWT_KEY must be defined');
