@@ -3,7 +3,7 @@ import axios from "axios";
 const Api = ({ req }) => {
     if (typeof window === 'undefined') {
         return axios.create({
-            baseURL: "http://ingress-nginx-controller.ingress-nginx.svc.cluster.local/",
+            baseURL: "www.ticketing-app-mok-prod.xyz/",
             headers: req.headers
         });
     }
