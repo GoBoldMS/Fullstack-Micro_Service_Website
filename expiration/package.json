@@ -19,7 +19,7 @@
   "license": "ISC",
   "dependencies": {
     "@types/bull": "^4.10.0",
-    "@ylticketingworld/common": "^1.0.16",
+    "@ylticketingworld/common": "^1.0.17",
     "bull": "^4.10.4",
     "ts-node-dev": "^2.0.0",
     "typescript": "^4.9.4"
