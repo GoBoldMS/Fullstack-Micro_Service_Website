@@ -75,7 +75,8 @@ Just install Skaffold and then from the root folder run `Skaffold dev` to start 
 
 ### Usage
 
-Once the development server is running or the project is deployed, you can access the website by navigating to `http://localhost:3000` in your web browser.
+Once the development server is running or the project is deployed, you can access the website by navigating to `https://ticketing.dev` in your web browser.
+(you will need to create a dedacted host for it)
 
 ## Contributing
 
