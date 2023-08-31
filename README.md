@@ -1,4 +1,4 @@
-# Ticketing Website
+#     Fullstack Micro Service Website
 
 This is a ticketing website built using Node.js and TypeScript for the backend and React for the client-side. The website provides the following services:
 
